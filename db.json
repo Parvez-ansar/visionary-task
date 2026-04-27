@@ -1,0 +1,50 @@
+{
+  "$schema": "./node_modules/json-server/schema.json",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the difference between let, const, and var in JavaScript?",
+      "answer": "var is function scoped and can be redeclared or updated, let is block scoped and can be updated but not redeclared in the same scope, while const is block scoped and cannot be updated or redeclared after initialization."
+    },
+    {
+      "id": 2,
+      "question": "What is React?",
+      "answer": "React is a JavaScript library for building user interfaces, primarily for single-page applications using reusable components."
+    },
+    {
+      "id": 3,
+      "question": "What is the Virtual DOM?",
+      "answer": "The Virtual DOM is a lightweight JavaScript representation of the real DOM that React uses to optimize UI updates efficiently."
+    },
+    {
+      "id": 4,
+      "question": "What is CSS Flexbox?",
+      "answer": "Flexbox is a CSS layout model that helps align and distribute space among items in a container."
+    },
+    {
+      "id": 5,
+      "question": "What is Redux?",
+      "answer": "Redux is a state management library used to manage global application state in a predictable way."
+    },
+    {
+      "id": 6,
+      "question": "What is a closure in JavaScript?",
+      "answer": "A closure is a function that remembers variables from its outer scope even after the outer function has executed."
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of useEffect in React?",
+      "answer": "useEffect is used to handle side effects such as data fetching, subscriptions, or DOM updates in functional components."
+    },
+    {
+      "id": 8,
+      "question": "What is responsive web design?",
+      "answer": "Responsive web design ensures that websites adapt to different screen sizes and devices using flexible layouts and media queries."
+    },
+    {
+      "id": 9,
+      "question": "What is event bubbling in JavaScript?",
+      "answer": "Event bubbling is the process where an event starts from the target element and bubbles up to parent elements."
+    }
+  ]
+}
